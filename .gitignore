@@ -3,6 +3,7 @@
 CSX_PCB/Project*/*
 CSX_PCB/History/*
 CSX_PCB/__Previews/*
+CSX_PCB/*.htm
 
 # PSOC Creator ----------------------------------------
 
