@@ -1,32 +1,43 @@
-# Prerequisites
-*.d
+# Altium ----------------------------------------
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+CSX_PCB/Project*/*
+CSX_PCB/History/*
+CSX_PCB/__Previews/*
 
-# Precompiled Headers
-*.gch
-*.pch
+# PSOC Creator ----------------------------------------
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# ignore PSoC Creator workspaces
+*.cywrk
 
-# Fortran module files
-*.mod
-*.smod
+# folders generated after build (any PSoC series)
+*.cydsn/Cortex*/*
+*.cydsn/codegentemp/*
+*.cydsn/Generated_Source/*
+*.cydsn/Export/*
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Files generated after build
+*.cycdx
+*.cyfit
+*.rpt
+*.log
 
-# Executables
-*.exe
-*.out
-*.app
+# Files generated after build (PSoC 6 specific)
+cy8c6xx7*
+cy_ipc_config*
+system_psoc63*
+*.cydsn/iar/*
+*.cydsn/mdk/*
+*.cydsn/armgcc/*
+*_timing.html
+*.svd
+
+# OneDrive
+*cyprj.*
+*cywrk.*
+
+# Qt ----------------------------------
+
+# Build Folder
+build-Tactile*
+*.autosave
+
